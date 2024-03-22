@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #f4f4f4;
+}
+.head-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.head-left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.icon {
+  color: red;
+}
+.social-icon {
+  display: flex;
+  gap: 10px;
+}
+.head-right .social-icon span {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navigation{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+.navigation li {
+    font-weight: 500;
+}
+.navigation li:hover {
+    color: red;
+    cursor: pointer;
+}
+.navigation .right svg {
+    color: red;
+    font-size: 30px;
+    align-items: center;
+    padding-left: 30px;
+}
+.navigation .right {
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.navigation .right span {
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    align-items: center;
+}
+.navigation .left .button{
+    background-color: red;
+    color: white;
+    padding: 20px;
+}

@@ -1,0 +1,58 @@
+.team {
+  margin-top: 70px;
+}
+.team .container .top-text {
+  text-align: center;
+}
+.team .container .top-text span {
+  color: red;
+  font-weight: 700;
+}
+.team .container .top-text h1 {
+  color: #0b2154;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.team .container .img-box {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.team .container .img-box img {
+    width: 261px;
+    height: 261px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team .container .img-cont .img-box-1 img{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    transition: .1s;
+}
+.team .container .img-cont .img-box-1 img:hover{
+  content: "";
+  background-color: red;
+}
+

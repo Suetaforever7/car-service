@@ -1,0 +1,30 @@
+.statistic{
+   margin-top: 100px;
+}
+.statistic .background {
+  height: 214px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/photo_2024-01-28_13-01-56.png);
+}
+.statistic .flex-box{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-height: max-content;
+    padding: 48px;
+}
+.statistic .box{
+    align-items: center;
+    text-align: center;
+}
+.statistic .box svg {
+    font-size: 35px;
+}
+.statistic .box p {
+    padding-top: 15px;
+    font-weight: 500;
+}

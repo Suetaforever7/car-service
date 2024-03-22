@@ -1,0 +1,87 @@
+.book {
+  margin: 60px 0px 0px 0px;
+}
+.book .container {
+  background-image: url(../images/book.png);
+  height: 443px;
+  background-position: bottom;
+  display: flex;
+}
+.book .container .left {
+  margin: 0px 0px 0px 0px 145px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.book .container .left .top-text {
+  padding-top: 60px;
+}
+.book .container .left .top-text h1 {
+  color: white;
+  width: 500px;
+  margin-left: 145px;
+}
+.book .container .left .bottom-text {
+  color: white;
+  width: 620px;
+  margin: 20px 0px 0px 145px;
+  font-weight: 500;
+}
+.book .container .right {
+  background-color: #d81324;
+  width: 600px;
+  margin-left: 50px;
+  padding: 10px;
+}
+.book .container .right  input {
+padding: 20px;
+}
+.book .container .right .top-text {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.book .container .right .colomn {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  margin-top: 20px;
+}
+.book .container .right .colomn .input  {
+  color: gray;
+  padding: 20px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+.book .container .right .colomn select{
+    color: gray;
+    margin-left: 40px;
+    padding: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.book .container .right .colomn .day {
+    color: gray;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.book .container .right .colomn .coment {
+    grid-column: 1 / span 2;
+    margin-left: 40px;
+    height: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.book .container .right button {
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 60px;
+    width: 560px;
+    background-color: #0B2154;
+    border: 1px solid #0B2154;
+    color: white;
+    outline: none;
+    font-weight: 600;
+}
+.bg{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-right: 84px;
+}

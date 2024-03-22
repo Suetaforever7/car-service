@@ -1,0 +1,93 @@
+.about {
+  display: flex;
+  padding: 100px 145px;
+}
+.about .cont {
+  padding: 0px 0px 0px 20px;
+}
+.about .box-1 {
+  display: flex;
+  height: 150px;
+  display: flex;
+  width: 300px;
+  padding: 30px 15px;
+}
+.about .box-1 a {
+  color: #0b2154;
+}
+.about .box-1 svg {
+  color: red;
+  font-size: 40px;
+}
+.about .box-1 span {
+  color: #0b2154;
+  font-weight: 700;
+  font-family: "Barlow", sans-serif;
+  line-height: 1.2;
+}
+
+.about .box-2 {
+  background-color: rgb(201, 201, 201);
+  height: 150px;
+  display: flex;
+  width: 300px;
+  padding: 30px 15px;
+}
+.about .cont-2 {
+  padding: 0px 0px 0px 20px;
+}
+.about .box-2 p {
+  color: gray;
+}
+.about .box-2 a {
+  color: #0b2154;
+}
+.about .box-2 svg {
+  color: red;
+  font-size: 40px;
+}
+.about .box-2 span {
+  color: #0b2154;
+  font-weight: 700;
+  font-family: "Barlow", sans-serif;
+  line-height: 1.2;
+}
+.about .box-2 p {
+  color: gray;
+}
+.about .box-2 a {
+  color: #0b2154;
+}
+
+.about .box-3 {
+  display: flex;
+  height: 150px;
+  display: flex;
+  width: 300px;
+  padding: 30px 15px;
+}
+.about .cont-3 {
+  padding: 0px 0px 0px 20px;
+}
+.about .box-3 p {
+  color: gray;
+}
+.about .box-3 a {
+  color: #0b2154;
+}
+.about .box-3 svg {
+  color: red;
+  font-size: 40px;
+}
+.about .box-3 span {
+  color: #0b2154;
+  font-weight: 700;
+  font-family: "Barlow", sans-serif;
+  line-height: 1.2;
+}
+.about .box-3 p {
+  color: gray;
+}
+.about .box-3 a {
+  color: #0b2154;
+}

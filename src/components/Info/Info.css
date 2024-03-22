@@ -1,0 +1,118 @@
+.info {
+  padding: 0px 150px;
+  display: flex;
+}
+.info .img {
+  display: flex !important;
+}
+.info .box .box-text {
+  position: absolute;
+  left: 585px;
+  top: 1150px;
+}
+.info .box-text {
+  background-color: rgba(0, 0, 0, 0.08);
+  width: 150px;
+  height: 120px;
+  padding: 20px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.info .box span {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+}
+.info .info-cont {
+  margin-left: 50px;
+}
+.info .info-cont .info-top span {
+  color: red;
+  font-size: 18px;
+  font-weight: 700;
+}
+.info .info-cont .info-top h2 span {
+  font-size: 35px;
+}
+.info .info-cont .info-top h2 {
+  padding: 10px 0px 0px 0px;
+  color: #0b2154;
+  font-size: 35px;
+}
+.info .info-cont .info-top p {
+  color: rgb(98, 98, 98);
+  padding-top: 20px;
+}
+.info .info-cont .info-bottom {
+  margin-top: 30px;
+}
+
+.info .info-cont .info-bottom .block-1 {
+  display: flex;
+}
+.info .info-cont .info-bottom .block-1 span {
+  background-color: rgba(0, 0, 0, 0.08);
+  color: #0b2154;
+  padding: 10px;
+  font-weight: 700;
+}
+.info .info-cont .info-bottom .block-1 .block-1-text {
+  padding-left: 15px;
+}
+.info .info-cont .info-bottom .block-1 .block-1-text h6 {
+  font-weight: 700;
+  color: #0b2154;
+  font-size: 16px;
+}
+.info .info-cont .info-bottom .block-1 .block-1-text p {
+  color: rgb(98, 98, 98);
+}
+
+.info .info-cont .info-bottom .block-2 {
+  display: flex;
+  padding-top: 30px;
+}
+.info .info-cont .info-bottom .block-2 span {
+  background-color: rgba(0, 0, 0, 0.08);
+  color: #0b2154;
+  padding: 10px;
+  font-weight: 700;
+}
+.info .info-cont .info-bottom .block-2 .block-2-text {
+  padding-left: 15px;
+}
+.info .info-cont .info-bottom .block-2 .block-2-text h6 {
+  font-weight: 700;
+  color: #0b2154;
+  font-size: 16px;
+}
+.info .info-cont .info-bottom .block-2 .block-2-text p {
+  color: rgb(98, 98, 98);
+}
+.info button {
+    margin-top: 50px;
+    height: 57px;
+    width: 220px;
+    color: white;
+    border: red;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+ 
+}
+.info svg {
+    padding-left: 10px;
+    font-size: 40px;
+    position: absolute;
+    align-items: center;
+    top: 1680px;
+}
+.info button:hover {
+background-color: rgb(190, 32, 32);
+cursor: pointer;
+}
